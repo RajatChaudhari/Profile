@@ -1,3 +1,21 @@
-<p>
-  projects works!
-</p>
+
+  <div class="container">
+    <div *ngFor="let project of projects" class="container experience row ">
+      <div class="col-md-4">
+          
+          <strong>{{project.projectName}} |  {{project.domain}}</strong><br>
+          <strong>{{project.duration}}</strong>
+          <strong><h6>{{project.role}}</h6></strong>
+          <br>
+          <br>
+      </div>
+    <div class="col-md-6">
+        
+        <span>{{project.technologies}}</span><br>
+        <span>{{project.description}}</span><br>
+        <span>{{project.responsibispanty}}</span><br>
+    </div>
+
+    </div>
+  </div>
+

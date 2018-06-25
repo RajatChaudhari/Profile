@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { ProjectDetails } from './projectdetails'
-
+import { ProjectDetails, projectArray } from './projectdetails'
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -9,10 +9,9 @@ export class DataService {
 
   projects: ProjectDetails[];
 
-  constructor() { dataService: DataService}
+  constructor() { }
 
-  getPorojectDetails(): void{
-    
-    
+  getProjectDetails(): Observable<ProjectDetails[]>{
+  return of (projectArray);
   }
 }

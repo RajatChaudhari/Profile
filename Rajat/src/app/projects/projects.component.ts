@@ -10,9 +10,14 @@ import { ProjectDetails } from '../projectdetails';
 export class ProjectsComponent implements OnInit {
 
   projects: ProjectDetails[];
+
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.getProject();
   }
-
+getProject(): void {
+  this.dataService.getProjectDetails()
+  .subscribe(projects=>this.projects=projects);
+}
 }
