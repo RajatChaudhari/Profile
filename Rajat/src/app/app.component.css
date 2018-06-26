@@ -1,0 +1,15 @@
+.bg{
+
+    background: url("/assets/images/dex.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.expand{
+    
+    min-height: 300px;
+    min-width: 500px;
+    
+}

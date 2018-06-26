@@ -5,7 +5,7 @@ container {
     padding: 40px 180px;
 }
 html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
-body { background-image:"D:/Rajat/Web/Angular/Profile/Rajat/src/assets/images/background.jpg"; font-size: 15px; line-height: 1.64; }
+body { background-image:"./assets/images/background.jpg"; font-size: 15px; line-height: 1.64; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
 h1,h4 { font-weight: 700; margin-bottom: 10px; }
@@ -44,8 +44,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-o-background-size: cover;
 	background-size: cover;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/background.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/background.jpg', sizingMethod='scale');
 	
 	margin-bottom: 0px;
 	padding: 0px;
