@@ -1,2 +1,27 @@
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; margin-bottom: 20px; }
 h2 { font-weight: 500; color: gold; }
+
+.awards{
+    background: url("/assets/images/awards.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    font-style: italic;
+}
+
+img{
+    width: 30px;
+    min-width: 30px;
+    min-height: 10px;
+    max-height:40px ;
+    
+}
+td{
+    min-width: 5px;
+    padding-bottom: 2px;
+    align-content: space-between;
+    
+}

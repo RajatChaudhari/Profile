@@ -1,9 +1,18 @@
-<div class="container" style="align-items: center; left: 30%;">
+<div class="container awards" style="align-items: center; left: 30%;">
   <div><h2>Achievements</h2></div>
   <div class="col-md-2"></div>
   <div *ngFor="let deed of deeds" style="align-content: center">
-    <span>{{deed.deed}}</span>
-    <span>{{deed.award}}</span>
+    <tr>
+    <td><span><img  src="/assets/images/award.png" alt="X" ></span></td>
+    <td></td>
+    <td style="vertical-align: 0px">
+      <span>{{deed.deed}}</span>
+      <span>{{deed.award}}</span>
+    </td>
+    <br>
+  </tr>
+      
   </div>
+
   <div class="col-md-2"></div>
 </div>

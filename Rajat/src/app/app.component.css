@@ -1,6 +1,6 @@
 .bg{
 
-    background: url("/assets/images/dex.jpg") no-repeat center fixed;
+    background: url("/assets/images/background1.jpg") no-repeat center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,3 +13,4 @@
     min-width: 500px;
     
 }
+
