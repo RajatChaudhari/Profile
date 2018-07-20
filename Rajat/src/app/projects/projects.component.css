@@ -1,0 +1,13 @@
+.bg{
+
+    background: url("/assets/images/darkscene.jpg") no-repeat center ;
+    /* background-color: black; */
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    color: beige;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

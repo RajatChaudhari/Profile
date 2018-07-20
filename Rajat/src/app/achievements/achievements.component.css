@@ -2,13 +2,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family:'F
 h2 { font-weight: 500; color: gold; }
 
 .awards{
-    background: url("/assets/images/awards.jpg") no-repeat center fixed;
-    background-size: cover;
+    background: url("/assets/images/Campbg.png") no-repeat center fixed;
+    /* background-size: cover; */
 }
 
 span{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: azure;
+    color: beige;
     font-style: italic;
 }
 

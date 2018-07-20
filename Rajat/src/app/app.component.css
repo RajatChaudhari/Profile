@@ -1,10 +1,11 @@
 .bg{
 
-    background: url("/assets/images/background1.jpg") no-repeat center ;
-    -webkit-background-size: cover;
+    /* background: url("/assets/images/darkscene.jpg") no-repeat center ; */
+    background-color:rgb(19, 32, 44) ;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -o-background-size: cover; */
+    /* background-size: cover; */
 }
 
 .expand{
@@ -14,3 +15,138 @@
     
 }
 
+
+.center {
+      
+    margin: 0 auto;
+    
+  }
+
+  .awesome {
+    
+    font-style: italic;
+    
+    width:100%;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+    color:#0d2524 #313131;
+    font-size:45px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange 20s infinite alternate;
+    animation: colorchange 20s infinite alternate;
+    
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: #44eae5;
+    }
+    
+    10% {
+      
+      color: #41d8d3;
+    }
+    
+    20% {
+      
+      color: #37bdb9;
+    }
+    
+    30% {
+      
+      color: #35b1ad;
+    }
+    
+    40% {
+      
+      color: #2f9a97;
+    }
+    
+    50% {
+      
+      color: #2a8a87;
+    }
+    
+    60% {
+      
+      color: #247371;
+    }
+    
+    70% {
+      
+      color: #1f615f;
+    }
+    80% {
+   
+      color: #1a5251;
+    }
+    
+    90% {
+   
+      color: #133a39;
+    }
+    
+    100% {
+      
+      color: #0d2524;
+    }
+  }
+  @keyframes colorchange {
+    0% {
+      
+      color: #44eae5;
+    }
+    
+    10% {
+      
+      color: #41d8d3;
+    }
+    
+    20% {
+      
+      color: #37bdb9;
+    }
+    
+    30% {
+      
+      color: #35b1ad;
+    }
+    
+    40% {
+      
+      color: #2f9a97;
+    }
+    
+    50% {
+      
+      color: #2a8a87;
+    }
+    
+    60% {
+      
+      color: #247371;
+    }
+    
+    70% {
+      
+      color: #1f615f;
+    }
+    80% {
+   
+      color: #1a5251;
+    }
+    
+    90% {
+   
+      color: #133a39;
+    }
+    
+    100% {
+      
+      color: #0d2524;
+    }
+  }
