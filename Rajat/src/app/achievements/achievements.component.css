@@ -1,14 +1,18 @@
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; margin-bottom: 20px; }
 h2 { font-weight: 500; color: gold; }
 
-.awards{
-    background: url("/assets/images/Campbg.png") no-repeat center fixed;
-    /* background-size: cover; */
-}
 
-span{
+div.awards{
+    /* background: url("/assets/images/1.png") no-repeat center fixed; */
+    background-size: cover;
+    /* background-color: black; */
+    
+    opacity: 0.9;
+} 
+
+div.awards span{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: beige;
+    color: rgb(0, 0, 0);
     font-style: italic;
 }
 

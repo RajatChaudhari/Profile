@@ -1,11 +1,11 @@
 .bg{
 
-    /* background: url("/assets/images/darkscene.jpg") no-repeat center ; */
-    background-color:rgb(19, 32, 44) ;
+    /* background: url("/assets/images/bgdoodle.jpg") no-repeat center fixed; */
+    background-color:rgba(228, 234, 240, 0.014) ;
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; */
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .expand{
@@ -25,14 +25,14 @@
   .awesome {
     
     font-style: italic;
-    
+    font-size: 90px;
     width:100%;
-    
+    word-spacing: -5ch;
     margin: 0 auto;
     text-align: center;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#0d2524 #313131;
-    font-size:45px;
+    
     font-weight: bold;
     position: absolute;
     -webkit-animation:colorchange 20s infinite alternate;
@@ -43,110 +43,110 @@
   @-webkit-keyframes colorchange {
     0% {
       
-      color: #44eae5;
+      color: #44ea60;
     }
     
     10% {
       
-      color: #41d8d3;
+      color: #44ea9d;
     }
     
     20% {
       
-      color: #37bdb9;
+      color: #44eadc;
     }
     
     30% {
       
-      color: #35b1ad;
+      color: #44c3ea;
     }
     
     40% {
       
-      color: #2f9a97;
+      color: #4487ea;
     }
     
     50% {
       
-      color: #2a8a87;
+      color: #4470ea;
     }
     
     60% {
       
-      color: #247371;
+      color: #5544ea;
     }
     
     70% {
       
-      color: #1f615f;
+      color: #7044ea;
     }
     80% {
    
-      color: #1a5251;
+      color: #5d44ea;
     }
     
     90% {
    
-      color: #133a39;
+      color: #445dea;
     }
     
     100% {
       
-      color: #0d2524;
+      color: #4492ea;
     }
   }
   @keyframes colorchange {
     0% {
       
-      color: #44eae5;
+      color: #44ea60;
     }
     
     10% {
       
-      color: #41d8d3;
+      color: #44ea9d;
     }
     
     20% {
       
-      color: #37bdb9;
+      color: #44eadc;
     }
     
     30% {
       
-      color: #35b1ad;
+      color: #44c3ea;
     }
     
     40% {
       
-      color: #2f9a97;
+      color: #4487ea;
     }
     
     50% {
       
-      color: #2a8a87;
+      color: #4470ea;
     }
     
     60% {
       
-      color: #247371;
+      color: #5544ea;
     }
     
     70% {
       
-      color: #1f615f;
+      color: #7044ea;
     }
     80% {
    
-      color: #1a5251;
+      color: #5d44ea;
     }
     
     90% {
    
-      color: #133a39;
+      color: #445dea;
     }
     
     100% {
       
-      color: #0d2524;
+      color: #4492ea;
     }
   }
