@@ -1,0 +1,3 @@
+export const keywordsArray:string[]=[
+    "Microsoft Technologies", ".Net Framework", "ASP .Net MVC", "ASP .Net Web forms", "C#", "Web-Service", "WCF", "Object Oriented Analysis and Programming", "Multi-Tier Client/Server Architecture", "Data Structures and Algorithms", "Design Patterns", "Web API", "Angular JS", "Web application security", "Python", "Machine Learning", "Data Science" ," Cloud development" 
+]

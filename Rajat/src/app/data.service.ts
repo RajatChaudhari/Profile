@@ -3,6 +3,7 @@ import { ProjectDetails, projectArray } from './projectdetails'
 import { Observable, of } from 'rxjs';
 import { AchievementDetails,achievementArray } from './achievementdetails';
 import { SummaryDetails, summaryArray} from './summarydetails';
+import {keywordsArray} from './keywordslist';
 
 @Injectable({
   providedIn: 'root'
@@ -19,5 +20,8 @@ export class DataService {
   }
   getSummaryDetails():Observable<SummaryDetails[]>{
     return of(summaryArray);
+  }
+  getKeywords():Observable<string[]>{
+    return of(keywordsArray);
   }
 }

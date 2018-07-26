@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-keywords',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./keywords.component.css']
 })
 export class KeywordsComponent implements OnInit {
-
-  constructor() { }
+keywords:string[];
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.getKeywords()
+  }
+  getKeywords(): void {
+    this.dataService.getKeywords()
+    .subscribe(keywords=>this.keywords=keywords);
   }
 
 }
